@@ -5,29 +5,24 @@ def add_slang(text, word):
     cur.execute("INSERT INTO slangs (palabra, significado) VALUES (?, ?)",(palabra, significado))
     bd.commit()
 
-
 def update_slang(value, text, word):
     cur.execute("UPDATE slangs SET palabra=?, significado=? WHERE id=?",(palabra, significado, int(value)))
     bd.commit()
-
 
 def search_slang(text):
     cur.execute("SELECT significado FROM slangs WHERE palabra=?", (palabra,))
     result = cur.fetchone()
     return result[0] if result else None
 
-
 def delete_slang(value):
     cur.execute("DELETE FROM slangs WHERE id=?", (int(value),))
     bd.commit()
-
 
 def print_all_data():
     cur.execute("SELECT * FROM slangs")
     result = cur.fetchall()
     for row in result:
         print(row)
-
 
 bd = sqlite3.connect('slangs.db')
 cur = bd.cursor()
@@ -54,7 +49,6 @@ for slang in slangs.values():
                     (slang["palabra"], slang["significado"]))
 
 bd.commit()
-
 
 valor = True
 try:
