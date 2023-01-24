@@ -15,4 +15,4 @@ Este trabajo se emplea utilizando Python y SQLite, se creo una tabla llamada "Sl
 * Buscar significado de palabra, 
 * Salir
 
-en este enlace puedes acceder al taller: [Click](http://example.com/ "Taller #1").
+en este enlace puedes acceder al taller: [Click](https://github.com/IsaacJSandovalC/programacion4/blob/main/taller_1.py).
