@@ -1,4 +1,5 @@
 # Talleres.
+Reposito exclusivo para talleres de la materia Programación 4
 
 ## Índice:
 * [Taller N° 1 usando SQLite](#id1)
