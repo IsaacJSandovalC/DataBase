@@ -7,7 +7,7 @@ Reposito exclusivo para talleres y casos de la materia Programación 4
 
 
 
-## Taller #1<a name="id1"></a>
+## Taller #1 (SQLite)<a name="id1"></a>
 Este trabajo se emplea utilizando Python y SQLite, se creo una tabla llamada "Slangs.db", se le agregan las funciones de:
 
 * Agregar nueva palabra.
@@ -20,7 +20,7 @@ Este trabajo se emplea utilizando Python y SQLite, se creo una tabla llamada "Sl
 en este enlace puedes acceder al taller: [Click](https://github.com/IsaacJSandovalC/DataBase/tree/main/SQLite/SQLite.py).
 
 
-## Taller #2<a name="id2"></a>
+## Taller #2 ORM(SQLAlchemy)<a name="id2"></a>
 Este trabajo se emplea utilizando Python, Pymysql y SQLAlchemy, se crea una tabla llamada "Slangs", se le agregan las funciones de:
 
 * Agregar nueva palabra.
