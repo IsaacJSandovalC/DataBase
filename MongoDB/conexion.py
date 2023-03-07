@@ -11,7 +11,7 @@ URI_CONNECTION = f"mongodb://{MONGODB_HOST}:{MONGODB_PORT}/"
 try:
     client = MongoClient(URI_CONNECTION, serverSelectionTimeoutMS=MONGODB_TIMEOUT)
     print(f'OK -- Connected to MongoDB at server {MONGODB_HOST}\n')
-    db = client["Slangs_Documents"]
+    db = client["Slangs_db"]
     conn = db["Slangs"]
     
 except Exception:
