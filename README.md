@@ -18,7 +18,7 @@ Este trabajo se emplea utilizando Python y SQLite, se creo una tabla llamada "Sl
 * Buscar significado de palabra.
 * Salir.
 
-en este enlace puedes acceder al taller: [Click](https://github.com/IsaacJSandovalC/Talleres_Prog4/tree/main/SQLite/SQLite.py).
+en este enlace puedes acceder al taller: [Click](https://github.com/IsaacJSandovalC/Talleres_DB_Prog4/tree/main/SQLite/SQLite.py).
 
 
 ## Taller #2 ORM(SQLAlchemy)<a name="id2"></a>
@@ -31,7 +31,7 @@ Este trabajo se emplea utilizando Python, Pymysql y SQLAlchemy, se crea una tabl
 * Buscar significado de palabra.
 * Salir.
 
-para su uso correcto, reemplazar las credenciales del archivo [conexion.py](https://github.com/IsaacJSandovalC/Talleres_Prog4/blob/main/orm/conexion.py) por sus credenciales en MySQL de la siguiente manera:
+para su uso correcto, reemplazar las credenciales del archivo [conexion.py](https://github.com/IsaacJSandovalC/Talleres_DB_Prog4/blob/main/orm/conexion.py) por sus credenciales en MySQL de la siguiente manera:
 
 ```
 engine = create_engine('mysql+pymysql://user:password@host/database')
@@ -40,9 +40,9 @@ session = Session()
 ```
 
 ### Enlaces a los documentos del taller: 
-* conexion.py: [Click](https://github.com/IsaacJSandovalC/Talleres_Prog4/blob/main/orm/conexion.py)
-* menu.py: [Click](https://github.com/IsaacJSandovalC/Talleres_Prog4/blob/main/orm/menu.py)
-* slangs.py: [Click](https://github.com/IsaacJSandovalC/Talleres_Prog4/blob/main/orm/slangs.py)
+* conexion.py: [Click](https://github.com/IsaacJSandovalC/Talleres_DB_Prog4/blob/main/orm/conexion.py)
+* menu.py: [Click](https://github.com/IsaacJSandovalC/Talleres_DB_Prog4/blob/main/orm/menu.py)
+* slangs.py: [Click](https://github.com/IsaacJSandovalC/Talleres_DB_Prog4/blob/main/orm/slangs.py)
 
 
 
@@ -56,11 +56,11 @@ Este trabajo se emplea utilizando Python y pymongo, se crea una colecion llamada
 * Buscar significado de palabra.
 * Salir.
 
-para su uso correcto, reemplazar las credenciales del archivo [conexion.py](https://github.com/IsaacJSandovalC/Talleres_Prog4/blob/main/MongoDB/conexion.py) por sus credenciales en MongoDB de la siguiente manera:
+para su uso correcto, reemplazar las credenciales del archivo [conexion.py](https://github.com/IsaacJSandovalC/Talleres_DB_Prog4/blob/main/MongoDB/conexion.py) por sus credenciales en MongoDB de la siguiente manera:
 
 ```
 MONGODB_HOST = 'Host name'
 MONGODB_PORT = 'Ussing port'
 MONGODB_TIMEOUT = timer (colocar en enteros)
 ```
-Posterior a estos ajustes, ejecutar el archivo llamado [menu.py](https://github.com/IsaacJSandovalC/Talleres_Prog4/blob/main/MongoDB/menu.py), este creará automanticamente todas las colecciones y documentos con sus inserciones.
+Posterior a estos ajustes, ejecutar el archivo llamado [menu.py](https://github.com/IsaacJSandovalC/Talleres_DB_Prog4/blob/main/MongoDB/menu.py), este creará automanticamente todas las colecciones y documentos con sus inserciones.
