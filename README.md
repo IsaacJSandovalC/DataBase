@@ -47,7 +47,9 @@ session = Session()
 
 
 ## Taller #3 MongoDB(pymongo)<a name="id3"></a>
-Este trabajo se emplea utilizando Python y pymongo, se crea una colecion llamada "Slangs_db" y un documento llamado "Slangs". Se le agregan las funciones de:
+Este trabajo se emplea utilizando Python y pymongo, se crea una colecion llamada "Slangs_db" y un documento llamado "Slangs". 
+
+Se le agregan las funciones de:
 
 * Agregar nueva palabra.
 * Editar palabra existente.
