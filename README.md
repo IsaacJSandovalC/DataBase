@@ -5,6 +5,7 @@ Reposito exclusivo para talleres y casos de la materia Programación 4
 * [Taller N° 1 usando SQLite](#id1)
 * [Taller N° 2 usando ORM(SQLAlchemy)](#id2)
 * [Taller N° 3 usando MongoDB(pymongo)](#id3)
+* [Parcial N° 1 usando MySql(pymysql)](#id4)
 
 
 
@@ -66,3 +67,7 @@ MONGODB_PORT = 'Ussing port'
 MONGODB_TIMEOUT = timer (colocar en enteros)
 ```
 Posterior a estos ajustes, ejecutar el archivo llamado [menu.py](https://github.com/IsaacJSandovalC/Talleres_DB_Prog4/blob/main/MongoDB/menu.py), este creará automanticamente todas las colecciones y documentos con sus registros.
+
+
+## Parcial #1 MySql(pymysql)<a name="id4"></a>
+
