@@ -60,10 +60,3 @@ while True:
             print("Saliendo del programa")
             conexion.close()
             break
-
-
-# Ejemplo de uso
-
-
-
-# Cerrar la conexión
