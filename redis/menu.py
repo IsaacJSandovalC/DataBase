@@ -1,5 +1,5 @@
 from conexion import conectar_redis
-from acciones import crear_valor, leer_valor, actualizar_valor, eliminar_valor
+from acciones import crear_valor, leer_valor, actualizar_valor, eliminar_valor, mostrat_valores
 
 # Menú principal
 def menu():
@@ -24,6 +24,8 @@ def menu():
         elif opcion == "4":
             eliminar_valor(r)
         elif opcion == "5":
+            mostrat_valores(r)
+        elif opcion == "6":
             print("¡Adiós!")
             break
         else:
