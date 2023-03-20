@@ -24,4 +24,10 @@ def eliminar_valor(r):
     clave = input("Ingrese la clave: ")
     r.delete(clave)
     print("Valor eliminado de Redis")
+    
+def listar_valores(r):
+    claves = r.keys()
+    for clave in claves:
+        valor = r.get(clave)
+        print(clave.decode('utf-8'), valor.decode('utf-8'))
 
